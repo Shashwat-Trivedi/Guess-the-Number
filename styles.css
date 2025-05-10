@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(209, 196, 239);
+}
+
+h1 {
+    color: #0f9274;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 70px 0;
+}
+
+h2 {
+    color: #690f92;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    color: #0f9274;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    margin: 70px;
+}
+
+#randomNumber {
+    min-height: 20px;
+    color: #690f92;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 4px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0f9274;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {              
+    background-color: #0d785f;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    background-color: #0a5f4b;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+#chancesLeft {
+    color: #690f92;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 4px;
+    margin: 20px 0;
+}

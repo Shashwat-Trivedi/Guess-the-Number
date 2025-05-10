@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GUESS THE NUMBER</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -13,16 +13,22 @@
     <form>
         <h2>guess number between 1 to 100</h2>
         <p id="note"><span> Note : </span>You will get 10 chances</p>
-        <p><label for="randomNumber">Your Number : </label> <input type="text" name="randomNumber" id="randomNumber">
+        <p>
+            <label for="randomNumber">Your Number :</label><br>
+            <input type="text" name="randomNumber" id="randomNumber" />
         </p>
-        <button id="sumbit">Check
-        </button>
+        <button id="sumbit">Check</button>
     </form>
-    <div id="Won">
+    <div id="result">
+        <h2></h2>
     </div>
-    <div id="chancesLeft">
-    </div>
+   
+    <button id="reload" type="button">New Game</button>
+    <div id="chancesLeft">Chances Left :
+        <span id="chances">10</span>
 
+        </span>
+    </div>
 </body>
 <script src="script.js"></script>
 
